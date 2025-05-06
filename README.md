@@ -10,8 +10,8 @@ A minimal pre-configured Astro starter template with React, TypeScript, Tailwind
 ## ✨ Features
 
 - ⚡ **Astro v5** with SSR-ready configuration
-- ⚛️ **React** support
-- 🖥 **Server Components** support
+- ⚛️ **React 19** support
+- 🖥 **React Server Components** support
 - 🎨 **Tailwind CSS v4** with sensible defaults
 - 📁 **`@` path aliases** configured
 - 🏗 **Optimized TypeScript** setup
@@ -29,7 +29,7 @@ bun create astro@latest --template programmeaw/astro-actions-with-react-template
 
 ### npm
 ```bash
-npm create astro@latest -- --template programmeaw/astro-actions-with-react-template
+npm create astro@latest --template programmeaw/astro-actions-with-react-template
 ```
 
 ### Yarn
