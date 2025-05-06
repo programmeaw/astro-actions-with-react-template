@@ -1,0 +1,10 @@
+---
+import Greet from "@/components/react/Greet";
+import MainLayout from "@/layouts/MainLayout.astro";
+---
+
+<MainLayout>
+  <div class="flex h-screen flex-col items-center justify-center">
+    <Greet client:load />
+  </div>
+</MainLayout>
